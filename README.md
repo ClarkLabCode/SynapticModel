@@ -1,5 +1,5 @@
 # SynapticModel
-Code for simulations of the minimal synaptic model
+Code for simulations of the minimal synaptic model. Details can be found in our [preprint](https://doi.org/10.1101/833970).
 
 
 ## Getting started
