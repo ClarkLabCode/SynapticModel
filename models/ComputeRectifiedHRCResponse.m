@@ -13,10 +13,6 @@ else
 end
 
 % Filter the spatially-blurred stimulus in time
-if p.usePrefilter
-    blurArray = filter(f.ex, 1, blurArray, [], 1);
-end
-
 lpArray = filter(f.lp, 1, blurArray, [], 1);
 hpArray = filter(f.hp, 1, blurArray, [], 1);
 

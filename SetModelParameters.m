@@ -40,13 +40,6 @@ p.photoreceptorSpacing = 5;
 
 %% Set temporal filter parameters
 
-% Set whether to use exponential or Butterworth filters
-p.usePrefilter = false;
-
-% 
-p.tauPr1 = 0.01;
-p.tauPr2 = 0.02;
-
 % Filter time constants (s)
 p.tauLp = 0.15;
 p.tauHp = 0.15;
